@@ -11,7 +11,7 @@ Conso App 2.0 est une application collaborative de comparaison de liste de cours
 
 Un utilisateur remplit sa liste de course sur l'application.  
 Il peut filtrer les produits selon de nombreux critères : nutriscore, origine, vegan, etc ...  
-Une fois sa liste de course terminé, l'utilisateur verra sur une carte la liste des différents magasins et/ou marchés correspondant aux critères géographiques définis, avec le prix pour chache magasin et le détails de chaque produit pour chaque magasin.  
+Une fois sa liste de course terminé, l'utilisateur verra sur une carte la liste des différents magasins et/ou marchés correspondant aux critères géographiques définis, avec le prix pour chaque magasin et le détails de chaque produit.  
   
 S'il le désir l'utilisateur peut partager son panier publiquement.
 
