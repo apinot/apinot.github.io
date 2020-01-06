@@ -4,10 +4,8 @@ title: A propos
 permalink: /about/
 ---
 
-# Conso App 2.0
+## Conso App 2.0
 Conso App 2.0 est une application collaborative de comparaison de liste de courses.
-
-## Principe
 
 ### Utilisateur
 
