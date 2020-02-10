@@ -1,123 +1,22 @@
 ---
 layout: default
 ---
-<div class="col">
-  <div class="page-header">
-    <h1 class="page-title">Post</h1>
-  </div>
-  <div class="col-lg-12 col-xl-12">
-    <div class="card">
-      <div class="card-header">
-        <h3 class="card-title">Commit stats</h3>
-      </div>
-      <div class="card-body">
-        <div id="chart-wrapper" style="height: 16rem"></div>
+<div style="background: url(assets/img/DD-Healthy-living-menu-2015-065.jpg)">
+  <div class="col">
+    <div class="page-header">
+      <h1 class="page-title">Home</h1>
+    </div>
+    <div class="col-lg-12 col-xl-12">
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">Commit stats</h3>
+        </div>
+        <div class="card-body">
+          <div id="chart-wrapper" style="height: 16rem"></div>
+        </div>
       </div>
     </div>
-    <script>
-      let requestOptions = {
-        method: 'GET',
-        redirect: 'follow'
-      };
-      let tab_apinot = ['apinot'];
-      let tab_leo_felix = ['chirurjoint'];
-      let tab_yan = ['leofelix22'];
-      let tab_simon = ['Yann'];
-      let count_apinot = 0;
-      let count_leo_felix = 0;
-      let count_yan = 0;
-      let count_simon = 0;
 
-
-      function get_count(response){
-          const moonLanding = response.commit.author.date;
-          let index  = moonLanding.getMonth();
-          switch (response.commit.author.login) {
-            case 'apinot':
-              if(tab_apinot[index]){
-                count_apinot += 1;
-                tab_apinot[index] += count_apinot;
-              }else{
-                tab_apinot[index] = count_apinot
-              }
-              break;
-            case 'chirurjoint':
-              if(tab_simon[index]){
-                count_simon += 1;
-                tab_simon[index] += count_simon;
-              }else{
-                tab_simon[index] = count_simon
-              }
-              break;
-            case 'Yann-LeLan':
-              if(tab_yan[index]){
-                count_yan += 1;
-                tab_yan[index] += 1;
-              }else{
-                tab_yan[index] = count_yan
-              }
-              break;
-
-            case 'leofelix22':
-              if(tab_leo_felix[index]){
-                count_leo_felix += 1;
-                tab_leo_felix[index] += 1;
-              }else{
-                tab_leo_felix[index] = count_leo_felix
-              }
-              break;
-          }
-      }
-
-      fetch("https://github.com/login/oauth/authorize", requestOptions)
-              .then(response =>
-                      console.log(response)
-              )
-              .then(result => console.log(result))
-              .catch(error => console.log('error', error));
-
-      require(['c3', 'jquery'], function(c3, $) {
-        $(document).ready(function(){
-          let chart = c3.generate({
-            bindto: '#chart-bar', // id of chart wrapper
-            data: {
-              columns: [
-                // each columns data
-                tab_simon,
-                tab_leo_felix,
-                tab_yan,
-                tab_apinot
-              ],
-              type: 'bar', // default type of chart
-              colors: {
-                'apinot': tabler.colors["blue"],
-                'chirurjoint': tabler.colors["pink"],
-                'leofelix22': tabler.colors["red"],
-                'Yann-LeLan': tabler.colors["purple"]
-              },
-            },
-            axis: {
-              x: {
-                type: 'category',
-                // name of each category
-                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
-              },
-            },
-            bar: {
-              width: 16
-            },
-            legend: {
-              show: false, //hide legend
-            },
-            padding: {
-              bottom: 0,
-              top: 0
-            },
-          });
-        });
-      });
-    </script>
   </div>
-
 </div>
 
