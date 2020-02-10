@@ -1,15 +1,16 @@
 ---
 layout: default
 ---
-<div class="card">
-  <div class="card-header">
-    <div class="card-title">
-      <h1 class="card-title">{{ page.title }}</h1>
+<div class="col-md-6 col-xl-6">
+  <div class="card">
+    <div class="card-status bg-blue"></div>
+    <div class="card-header">
+      <h3 class="card-title">{{page.title}}</h3>
+      <div class="card-options">
+      </div>
     </div>
     <div class="card-body">
-      <div>
-        {{ content }}
-      </div>
+      {{content}}
     </div>
   </div>
 </div>
