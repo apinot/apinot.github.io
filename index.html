@@ -29,7 +29,7 @@ layout: default
 
 
       function get_count(response){
-        response.forEach(commit => {
+        response[0].forEach(commit => {
           const moonLanding = commit.commit.author.date;
           let index  = moonLanding.getMonth();
           switch (commit.commit.author.login) {
