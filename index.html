@@ -1,22 +1,27 @@
 ---
 layout: default
 ---
-<div>
-  <div class="col">
-    <div class="page-header">
-      <h1 class="page-title">Home</h1>
-    </div>
-    <div class="col-lg-12 col-xl-12">
-      <div class="card">
-        <div class="card-header">
-          <h3 class="card-title">Commit stats</h3>
-        </div>
-        <div class="card-body">
-          <div id="chart-wrapper" style="height: 16rem"></div>
-        </div>
+<div class="page-header">
+  <h1 class="page-title">
+    Post
+  </h1>
+</div>
+<div class="row">
+  {% for post in site.posts %}
+  <div class="col-md-6 col-xl-4">
+    <div class="card">
+      <div class="card-header">
+        <h3 class="card-title">{{ post.title }}</h3>
+
+      </div>
+      <div class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. A consequuntur, deserunt eaque error nulla temporibus!
+      </div>
+      <div class="card-footer">
+        {{ post.date | date: "%b %-d, %Y" }}
       </div>
     </div>
-
   </div>
-</div>
+  {% endfor %}
 
+</div>
