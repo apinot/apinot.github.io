@@ -16,7 +16,5 @@
     "url": "https://github.com/apinot/apinot.github.io/issues"
   },
   "homepage": "https://github.com/apinot/apinot.github.io#readme",
-  "dependencies": {
-    "tabler-ui": "0.0.34"
-  }
+  "dependencies": {}
 }
