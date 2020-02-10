@@ -1,25 +1,29 @@
 ---
 layout: default
 ---
-<div class="page-header">
-  <h1 class="page-title">Post</h1>
-</div>
-<div class="row">
-  {% for post in site.posts %}
-  <div class="col-md-6 col-xl-6">
-    <div class="card">
-      <div class="card-header">
-        <h3 class="card-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <div class="card-options">
+<div class="col">
+  <div class="page-header">
+    <h1 class="page-title">Post</h1>
+  </div>
+  <div class="row">
+    {% for post in site.posts %}
+    <div class="col-md-6 col-xl-6">
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+          <div class="card-options">
+          </div>
+        </div>
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. A consequuntur, deserunt eaque error nulla temporibus!
+        </div>
+        <div class="card-footer">
+          {{ post.date | date: "%b %-d, %Y" }}
         </div>
       </div>
-      <div class="card-body">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. A consequuntur, deserunt eaque error nulla temporibus!
-      </div>
-      <div class="card-footer">
-        {{ post.date | date: "%b %-d, %Y" }}
-      </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
+
 </div>
+
