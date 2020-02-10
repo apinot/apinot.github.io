@@ -32,10 +32,9 @@ layout: default
 
 
       function get_count(response){
-        response[0].forEach(commit => {
-          const moonLanding = commit.commit.author.date;
+          const moonLanding = response.commit.author.date;
           let index  = moonLanding.getMonth();
-          switch (commit.commit.author.login) {
+          switch (response.commit.author.login) {
             case 'apinot':
               if(tab_apinot[index]){
                 count_apinot += 1;
@@ -70,12 +69,11 @@ layout: default
               }
               break;
           }
-        })
       }
 
       fetch("https://api.github.com/repos/felixleo22/ConsoApp/commits", requestOptions)
               .then(response =>
-                      get_count(response)
+                      console.log(response)
               )
               .then(result => console.log(result))
               .catch(error => console.log('error', error));
