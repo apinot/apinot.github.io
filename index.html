@@ -32,7 +32,7 @@ layout: default
         const moonLanding = response.commit.author.date;
         let index  = moonLanding.getMonth();
         response.forEach(commit => {
-          switch (commit.author.login) {
+          switch (commit.commit.author.login) {
             case 'apinot':
               if(tab_apinot[index]){
                 count_apinot += 1;
