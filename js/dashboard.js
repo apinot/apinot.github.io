@@ -123,4 +123,4 @@ colors: {
 'gray-dark-lightest': '#ebebec'
 }
 };
-require(['assets/js/core']);
+require(['core']);
