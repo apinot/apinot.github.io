@@ -10,15 +10,15 @@ shim: {
 },
 paths: {
 'core': 'core',
-'jquery': 'vendors/jquery-3.2.1.min',
-'bootstrap': 'vendors/bootstrap.bundle.min',
-'sparkline': 'vendors/jquery.sparkline.min',
-'selectize': 'vendors/selectize.min',
-'tablesorter': 'vendors/jquery.tablesorter.min',
-'vector-map': 'vendors/jquery-jvectormap-2.0.3.min',
-'vector-map-de': 'vendors/jquery-jvectormap-de-merc',
-'vector-map-world': 'vendors/jquery-jvectormap-world-mill',
-'circle-progress': 'vendors/circle-progress.min',
+'jquery': 'jquery-3.2.1.min',
+'bootstrap': 'bootstrap.bundle.min',
+'sparkline': 'jquery.sparkline.min',
+'selectize': 'selectize.min',
+'tablesorter': 'jquery.tablesorter.min',
+'vector-map': 'jquery-jvectormap-2.0.3.min',
+'vector-map-de': 'jquery-jvectormap-de-merc',
+'vector-map-world': 'jquery-jvectormap-world-mill',
+'circle-progress': 'circle-progress.min',
 }
 });
 window.tabler = {
@@ -123,4 +123,4 @@ colors: {
 'gray-dark-lightest': '#ebebec'
 }
 };
-require(['assets/js/core']);
+require(['assets/js/vendors/core']);
