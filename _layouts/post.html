@@ -6,11 +6,10 @@ layout: default
     <h1 class="page-title">Post</h1>
   </div>
   <div class="row">
-    {% for post in site.posts %}
     <div class="col-md-6 col-xl-6">
       <div class="card">
         <div class="card-header">
-          <h3 class="card-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+          <h3 class="card-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a></h3>
           <div class="card-options">
           </div>
         </div>
@@ -18,11 +17,10 @@ layout: default
           {{content}}
         </div>
         <div class="card-footer">
-          {{ post.date | date: "%b %-d, %Y" }}
+          {{ page.date | date: "%b %-d, %Y" }}
         </div>
       </div>
     </div>
-    {% endfor %}
   </div>
 </div>
 
