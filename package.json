@@ -1,0 +1,22 @@
+{
+  "name": "apinot.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apinot/apinot.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apinot/apinot.github.io/issues"
+  },
+  "homepage": "https://github.com/apinot/apinot.github.io#readme",
+  "dependencies": {
+    "tabler-ui": "0.0.34"
+  }
+}
