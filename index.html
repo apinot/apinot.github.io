@@ -29,9 +29,9 @@ layout: default
 
 
       function get_count(response){
-        const moonLanding = response.commit.author.date;
-        let index  = moonLanding.getMonth();
         response.forEach(commit => {
+          const moonLanding = commit.commit.author.date;
+          let index  = moonLanding.getMonth();
           switch (commit.commit.author.login) {
             case 'apinot':
               if(tab_apinot[index]){
