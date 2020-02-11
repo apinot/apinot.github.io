@@ -2,7 +2,7 @@
   <div class="container">
     <div class="d-flex">
       <a href="{{ site.baseurl }}/" class="header-brand">
-        Accueil {{ site.title }}
+        {{ site.title }}
       </a>
       <div class="d-flex order-lg-2 ml-auto">
         <a class="avatar" href="https://trello.com/b/5nHUSyxK/consoapp"><i class="fab fa-trello"></i></a>
@@ -27,6 +27,11 @@
           </li>
           {% endif %}
           {% endfor %}
+          <li>
+            <a href="{{ site.baseurl }}/" class="header-brand">
+              Post
+            </a>
+          </li>
         </ul>
       </div>
     </div>
