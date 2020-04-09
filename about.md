@@ -21,7 +21,7 @@ L’application apporte plusieurs services aux utilisateur :
 </p>
 
 <h4 id="heading4">Liste de course</h4>
-<amp-img width="600" height="300" layout="responsive" src="{{site.url}}{{ site.list }}"></amp-img>
+<amp-img width="600" height="500" layout="responsive" src="{{site.url}}{{ site.list }}"></amp-img>
 
 <p>
 Notre application permet de pouvoir noter sa liste de course. Elle permet de comparer le prix total de la liste en fonction des magasins et non sur chaque produit. Cette liste de course est géolocalisée, afin de ne comparer que les magasins dans lesquels l’utilisateur peut se rendre.
@@ -42,7 +42,7 @@ Un utilisateur peut proposer une liste de produit à scanner en convertissant sa
 </p>
 
 
-<h4 id="heading4">Catalogue</h4>
+<h4 id="heading4">Catalogue (prochainement)</h4>
 <p>
 Les apports avec les scans des utilisateurs permettent de créer un catalogue de chaque magasin qui seront accessible pour tous les utilisateurs.
 </p>
