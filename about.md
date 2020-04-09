@@ -21,6 +21,7 @@ L’application apporte plusieurs services aux utilisateur :
 </p>
 
 <h4 id="heading4">Liste de course</h4>
+<amp-img width="600" height="300" layout="responsive" src="{{site.url}}{{ site.list }}"></amp-img>
 
 <p>
 Notre application permet de pouvoir noter sa liste de course. Elle permet de comparer le prix total de la liste en fonction des magasins et non sur chaque produit. Cette liste de course est géolocalisée, afin de ne comparer que les magasins dans lesquels l’utilisateur peut se rendre.

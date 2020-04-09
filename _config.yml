@@ -5,6 +5,7 @@ cover: assets/images/map.png
 logo: assets/images/logo.png
 favicon: assets/images/logo.png
 about: assets/images/about_image.png
+list: assets/images/list.png
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://apinot.github.io/" # the base hostname & protocol for your site
 
