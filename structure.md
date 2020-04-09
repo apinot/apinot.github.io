@@ -17,6 +17,7 @@ Le projet est décomposé en 4 conteneurs dockers :
 <p>
  - MongoDB: La base de données
 </p>
+<p>
  - MongoExpress: Interface d'administration de la base de données
 </p>
 
