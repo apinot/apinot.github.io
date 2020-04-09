@@ -3,7 +3,7 @@
     <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger  pr2  ">☰
     </div>
     {% if site.logo %}
-    <a class="my0 mx-auto" href="{{site.baseurl}}"><amp-img src="{{site.baseurl}}{{site.logo}}" height="33" layout="fixed" class="my0 mx-auto" alt="Logo"></amp-img></a>
+    <a class="my0 mx-auto" href="{{site.baseurl}}"><amp-img src="{{site.baseurl}}{{site.logo}}" width="33" height="33" layout="fixed" class="my0 mx-auto" alt="Logo"></amp-img></a>
     {% endif %}
   </header>
 
@@ -47,7 +47,7 @@
     {% endif %}
     {% if site.trello %}
     <li>
-        <a href="https://trello.com/b/{{site.trello}}" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML github"><svg width="2500" height="2500" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><defs><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a"><stop stop-color="#0091E6" offset="0%"/><stop stop-color="#0079BF" offset="100%"/></linearGradient></defs><rect fill="url(#a)" width="256" height="256" rx="25"/><rect fill="#FFF" x="144.64" y="33.28" width="78.08" height="112" rx="12"/><rect fill="#FFF" x="33.28" y="33.28" width="78.08" height="176" rx="12"/></svg></a>
+        <a href="https://trello.com/b/{{site.trello}}" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML github"><svg width="19" height="19" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><defs><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a"><stop stop-color="#0091E6" offset="0%"/><stop stop-color="#0079BF" offset="100%"/></linearGradient></defs><rect fill="url(#a)" width="256" height="256" rx="25"/><rect fill="#FFF" x="144.64" y="33.28" width="78.08" height="112" rx="12"/><rect fill="#FFF" x="33.28" y="33.28" width="78.08" height="176" rx="12"/></svg></a>
     </li>
     {% endif %}
   </ul>
