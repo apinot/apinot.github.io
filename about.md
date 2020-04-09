@@ -29,6 +29,7 @@ Notre application permet de pouvoir noter sa liste de course. Elle permet de com
 
 
 <h4 id="heading4">Collaboratif</h4>
+
 | | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 <amp-img width="600" height="300" layout="responsive" src="{{site.url}}{{ site.contribution1 }}"></amp-img> |
