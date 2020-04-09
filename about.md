@@ -37,7 +37,7 @@ Un utilisateur peut proposer une liste de produit à scanner en convertissant sa
 </p>
 
 
-<h4 id="heading4">Catalogue</h4>
+<h4 id="heading4">Catalogue (prochainement)</h4>
 <p>
 Les apports avec les scans des utilisateurs permettent de créer un catalogue de chaque magasin qui seront accessible pour tous les utilisateurs.
 </p>
