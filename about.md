@@ -29,13 +29,12 @@ Notre application permet de pouvoir noter sa liste de course. Elle permet de com
 
 
 <h4 id="heading4">Collaboratif</h4>
-
-| | | | |
-|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-<amp-img width="600" height="300" layout="responsive" src="{{site.url}}{{ site.contribution1 }}"></amp-img> |
-<amp-img width="600" height="300" layout="responsive" src="{{site.url}}{{ site.contribution2 }}"></amp-img> |
-<amp-img width="600" height="300" layout="responsive" src="{{site.url}}{{ site.contribution3 }}"></amp-img> |
-<amp-img width="600" height="300" layout="responsive" src="{{site.url}}{{ site.contribution4 }}"></amp-img> |
+<amp-img width="600" height="500" layout="responsive" src="{{site.url}}{{ site.contribution1 }}"></amp-img> 
+<p style="display: inline-block;">
+<amp-img width="300" height="300" layout="responsive" src="{{site.url}}{{ site.contribution2 }}"></amp-img>
+<amp-img width="300" height="300" layout="responsive" src="{{site.url}}{{ site.contribution3 }}"></amp-img>
+</p>
+<amp-img width="600" height="500" layout="responsive" src="{{site.url}}{{ site.contribution4 }}"></amp-img>
 <p>
 Chaque utilisateur peut être un contributeur pour notre application. Il peut scanner le code-barres d’un produit afin de l’identifier puis indique le prix et le magasin concerné. Cela aura pour conséquence que tous les utilisateurs, y compris lui, lorsqu’ils vont créer une liste de course contenant ce produit et que le magasin se situe dans la zone géolocalisée, le prix sera déjà connu.
 Un utilisateur peut proposer une liste de produit à scanner en convertissant sa liste de course en un panier public de recherche.
