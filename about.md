@@ -15,5 +15,5 @@ Notre équipe se compose de 3 étudiants de l'IUT Nancy Charlemagne :
 
 <amp-img width="300" height="300" layout="responsive" src="{{site.url}}{{ site.leo }}"></amp-img>
 <p>
-Amateur de boisson énergissante, Léo Felix est un étudiant qui fait gaffe à son porte monnaie. Etudiant en Licence professionel à l'IUT Nancy charlemagne. Son but est d'utiliser toute les connaissances et technologies qu'il emmagasine afin de faire du profit et des économies. Il veut une grande maison car il en a encore le goût amère de sa chambre au CROUS.  
+Amateur de boissons énergissantes, Léo Felix est un étudiant qui fait gaffe à son porte-monnaie. Étudiant en licence professionel à l'IUT Nancy Charlemagne. Son but est d'utiliser toutes les connaissances et technologies qu'il emmagasine afin de faire du profit et des économies. Il veut une grande maison car il en a encore le goût amer de sa chambre au CROUS.  
 </p>
