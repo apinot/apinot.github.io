@@ -1,7 +1,7 @@
 # Site settings
-title: Conso App
-description: Conso App project presentation
-cover: assets/images/radhakrishna.jpg
+title: Conso App 2.0
+description: Faîtes des économies et mangez mieux comme jamais auparavant !
+cover: assets/images/map.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
