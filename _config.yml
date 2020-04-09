@@ -3,7 +3,7 @@ title: Conso App 2.0
 description: Faîtes des économies et mangez mieux comme jamais auparavant !
 cover: assets/images/map.jpg
 logo: assets/images/logo.png
-favicon: assets/images/favicon.png
+favicon: assets/images/logo.png
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://apinot.github.io/" # the base hostname & protocol for your site
 
