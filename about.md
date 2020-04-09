@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<amp-img width="600" height="300" layout="responsive" src="assets/images/about_image.png"></amp-img>
+<amp-img width="600" height="300" layout="responsive" src="{{ site.baseurl }}assets/images/about_image.png"></amp-img>
 
 
 <h4 id="heading4">Idée du projet</h4>
