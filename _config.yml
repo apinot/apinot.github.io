@@ -1,11 +1,11 @@
 # Site settings
-title: Hanuman
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+title: Conso App
+description: Conso App project presentation
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
+url: "https://apinot.github.io/" # the base hostname & protocol for your site
 
 pagination:
 
@@ -18,21 +18,10 @@ pagination:
   per_page: 5
 
 # Social
-facebook: facebook
-twitter: twitter
 github:  github
-
-#Additional Pages
-about: about
-contact: contact
-privacy-policy: privacy-policy
 
 
 permalink: /:title
-
-
-# Google Analytics
-analytics_id: ""
 
 # Build settings
 markdown: kramdown
@@ -47,13 +36,7 @@ plugins:
 # Settings for rake task
 safe: False
 lsi: False
-username: samanyougarg #github username
-repo: hanuman #github repository
 branch: master #branch
-relative_source: ../hanuman/ #source directory
-destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
 
 exclude:
   - README.md
