@@ -16,7 +16,7 @@ Amateur de boissons énergissantes, Léo Felix est un étudiant qui fait gaffe �
 
 <amp-img width="300" height="300" layout="responsive" src="{{site.url}}{{ site.pinot }}"></amp-img>
 <p>
-Antoine PINOT est étudiant en Licence professionel CIASIE à l'IUT Nancy-Charlemagne. Passioné par le développement web depuis de nombreuses années, il aime créé des sites utiles, qui rassemble les gens. A cheval sur la précision, il espère que ce site puisse aider les raidns comme Léo à gérer leur budget au centime près.
+Antoine PINOT est étudiant en licence professionnelle CIASIE à l’IUT Nancy-Charlemagne. Passionné par le développement web depuis de nombreuses années, il aime créer des sites utiles, qui rassemblent les gens. À cheval sur la précision, il espère que ce site puisse aider les radins comme Léo à gérer leur budget au centime près.
 </p>
 
 <amp-img width="300" height="300" layout="responsive" src="{{site.url}}{{ site.simon }}"></amp-img>
