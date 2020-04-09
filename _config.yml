@@ -18,7 +18,8 @@ pagination:
   per_page: 5
 
 # Social
-github:  github
+github: felixleo22/ConsoApp
+trello: 5nHUSyxK/consoapp
 
 
 permalink: /:title
