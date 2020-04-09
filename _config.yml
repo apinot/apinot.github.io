@@ -4,6 +4,7 @@ description: Conso App project presentation
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
+about: assets/images/about_image.png
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://apinot.github.io/" # the base hostname & protocol for your site
 
