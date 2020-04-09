@@ -13,6 +13,7 @@ contribution4: assets/images/contribution4.png
 
 leo: assets/images/leo.png
 simon: assets/images/simon.jpg
+pinot: assets/images/pinot.jpg
 
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://apinot.github.io/" # the base hostname & protocol for your site
