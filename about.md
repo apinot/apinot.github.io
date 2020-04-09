@@ -6,7 +6,7 @@ permalink: /about/
 
 <amp-img width="600" height="300" layout="responsive" src="{{ site.about }}"></amp-img>
 
-
+{{ site.about }}
 <h4 id="heading4">Idée du projet</h4>
 <p>
     Le projet consiste en une application communautaire permettant aux utilisateurs de comparer les produits des magasins 
