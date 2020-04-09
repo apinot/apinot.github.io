@@ -1,16 +1,16 @@
 ---
 layout: default
 ---
-<div class="col-md-12 col-xl-12">
-  <div class="card">
-    <div class="card-status bg-blue"></div>
-    <div class="card-header">
-      <h3 class="card-title">{{page.title}}</h3>
-      <div class="card-options">
-      </div>
+<main class="content" role="main">
+  <article class="post">
+    <div class="post-meta">
+      <h1 class="post-title">{{ page.title }}</h1>
     </div>
-    <div class="card-body">
+    <section class="post-content">
+      <a name="topofpage"></a>
       {{content}}
-    </div>
-  </div>
-</div>
+    </section>
+  </article>
+</main>
+
+{% include footer.html %}
