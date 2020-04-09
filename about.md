@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 
-<h3>Contexte</h3>
+<h4>Contexte</h4>
 <p style="text-align: justify;">
 La réalisation de ce projet entre dans le cadre du projet tutoré des trois étudiants ci-dessous.<br>
 Projet tutoré de la Licence Professionelle CIASIE de l'IUT Charlemagne à Nancy, année scolaire 2019-2020.
@@ -13,7 +13,7 @@ Projet tutoré de la Licence Professionelle CIASIE de l'IUT Charlemagne à Nancy
 
 <hr>
 
-<h3>L'équipe</h3>
+<h4>L'équipe</h4>
 
 Notre équipe se compose de 3 étudiants de l'IUT Nancy Charlemagne :
 
