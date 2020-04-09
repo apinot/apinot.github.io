@@ -19,11 +19,12 @@ Amateur de boissons énergissantes, Léo Felix est un étudiant qui fait gaffe �
 Antoine PINOT est étudiant en Licence professionel CIASIE à l'IUT Nancy-Charlemagne. Passioné par le développement web depuis de nombreuses années, il aime créé des sites utiles, qui rassemble les gens. A cheval sur la précision, il espère que ce site puisse aider les raidns comme Léo à gérer leur budget au centime près.
 </p>
 
-<h3>Contexte</h3>
-<p>
-La réalisation de ce projet entre dans le cadre 
-</p>
-
 <amp-img width="300" height="300" layout="responsive" src="{{site.url}}{{ site.simon }}"></amp-img>
 
 <p>Simon, l'alchimiste de l'équipe, est un étudiant en LP CIASIE à Nancy, passionné par les nouvelles technologies, il ne cesse de développer ses connaissances au fur et à mesure de sa formation. De plus c'est une personne créative qui aime quand ses créations sont abouties et soignées.</p>
+
+<h3>Contexte</h3>
+<p>
+La réalisation de ce projet entre dans le cadre du projet tutoré des trois étudiants ci-dessus.
+Projet tutoré de la Licence Professionelle CIASIE de l'IUT Charlemagne à Nancy, année scolaire 2019-2020.
+</p>
